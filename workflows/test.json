@@ -1,0 +1,54 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking \"Execute Workflow\"": {
+      "main": [
+        [
+          {
+            "node": "Discord",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2023-04-19T10:35:26.284Z",
+  "id": "1",
+  "name": "test",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "dc062f7f-3fc2-413b-ae5d-a636b547ca1e",
+      "name": "When clicking \"Execute Workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        760,
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "webhookUri": "https://discord.com/api/webhooks/1098197218198048768/dKRjpbkOWFwH7HT1OMkyABwf99jW9G_CnfAkwtCYlvbydpnTiyUIjlRSPUaGwdTHuumC",
+        "text": "test",
+        "options": {}
+      },
+      "id": "03d33e99-3e69-4e45-841a-974e945a6227",
+      "name": "Discord",
+      "type": "n8n-nodes-base.discord",
+      "typeVersion": 1,
+      "position": [
+        980,
+        420
+      ]
+    }
+  ],
+  "pinData": {},
+  "settings": {},
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2023-04-19T10:50:36.000Z",
+  "versionId": "8c304b0b-ec17-4b5a-a355-9855c6cff8c3"
+}

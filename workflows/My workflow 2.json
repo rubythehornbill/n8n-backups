@@ -1,0 +1,52 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking \"Execute Workflow\"": {
+      "main": [
+        [
+          {
+            "node": "Cloudflare",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2023-04-19T11:08:38.818Z",
+  "id": "4",
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "2f9a741e-26d4-4bbb-b4e3-4c15af7a6745",
+      "name": "When clicking \"Execute Workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        580,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "delete"
+      },
+      "id": "91f3fb31-6b6a-4786-98b6-155b806b605f",
+      "name": "Cloudflare",
+      "type": "n8n-nodes-base.cloudflare",
+      "typeVersion": 1,
+      "position": [
+        800,
+        240
+      ]
+    }
+  ],
+  "pinData": {},
+  "settings": {},
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2023-04-19T11:08:38.818Z",
+  "versionId": "036a06c1-01ad-4fa9-9820-0b7ef8306249"
+}

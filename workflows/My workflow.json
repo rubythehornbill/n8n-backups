@@ -1,0 +1,53 @@
+{
+  "active": false,
+  "connections": {
+    "When clicking \"Execute Workflow\"": {
+      "main": [
+        [
+          {
+            "node": "TimescaleDB",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2023-04-19T10:47:12.123Z",
+  "id": "2",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "9da7c9af-f83d-4a93-aec7-7209ae201c65",
+      "name": "When clicking \"Execute Workflow\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        820,
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "additionalFields": {}
+      },
+      "id": "2fe2f866-089e-4308-ae75-cf53b8d2aafa",
+      "name": "TimescaleDB",
+      "type": "n8n-nodes-base.timescaleDb",
+      "typeVersion": 1,
+      "position": [
+        1160,
+        260
+      ]
+    }
+  ],
+  "pinData": {},
+  "settings": {},
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2023-04-19T10:47:40.000Z",
+  "versionId": "366c9444-960a-4c12-8533-ac133bf400af"
+}
